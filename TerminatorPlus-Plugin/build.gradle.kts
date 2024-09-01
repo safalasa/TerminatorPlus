@@ -1,6 +1,6 @@
 plugins {
     `java-library`
-    id("io.papermc.paperweight.userdev") version "1.3.7"
+    id("io.papermc.paperweight.userdev") version "1.7.1"
     id("net.nuggetmc.java-conventions")
 }
 
@@ -13,7 +13,7 @@ java {
 }
 
 dependencies {
-    paperDevBundle("1.20.4-R0.1-SNAPSHOT")
+    paperDevBundle("1.21.1-R0.1-SNAPSHOT")
 
     //add the TerminatorPlus-API module
     implementation(project(":TerminatorPlus-API"))
